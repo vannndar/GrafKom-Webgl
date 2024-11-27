@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar WebGL</title>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="utils/objectHandler.js"></script>
+    <script type="text/javascript" src="utils/textureHandler.js"></script>
+    <script type="text/javascript" src="utils/geometryHelper.js"></script>
+    <script type="text/javascript" src="utils/shader.js"></script>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f1f1f1;
+        }
+
+        .canvas {
+            width: 750px;
+            height: 650px;
+            margin-right: 50px;
+        }
+
+        .data {
+            width: 250px;
+            height: 650px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+    </style>
+</head>
+<body onload="main()">
+    <div class="container">
+        <div class="canvas">
+            <canvas id="canvas" style="border: 1px solid black;" width="750px" height="650px">
+            </canvas>
+        </div>
+
+        <div clas="data">
+            <h1>Nama : Thariq Ivan Anendar</h1>
+            <h2>NRP : 5025221013</h2>
+        </div>
+
+    </div>
+        <script src="https://webglfundamentals.org/webgl/resources/webgl-utils.js"></script>
+        <script src="https://webglfundamentals.org/webgl/resources/m4.js"></script>
+        <script src="https://webglfundamentals.org/webgl/resources/m3.js"></script>
+
+</body>
+</html>

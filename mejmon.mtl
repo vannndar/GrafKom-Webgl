@@ -1,0 +1,23 @@
+# Blender 4.2.2 LTS MTL File: 'moniorgood2.blend'
+# www.blender.org
+
+newmtl monitor
+Ns 474.688477
+Ka 0.614173 0.614173 0.614173
+Kd 0.009501 0.009501 0.009501
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.200000
+d 1.000000
+illum 2
+map_Kd E:/Cool Yeah/Semester 5/GrafKom/Blender/OBJ MTL test/texture/monitor.jpg
+
+newmtl wood
+Ns 348.750641
+Ka 0.055118 0.055118 0.055118
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd E:/Cool Yeah/Semester 5/GrafKom/Blender/6. Pencahayaan/texture.jpg
